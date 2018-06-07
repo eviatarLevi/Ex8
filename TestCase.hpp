@@ -31,6 +31,26 @@ class TestCase {
        if(tests != b) p << "erorr output" <<endl; 
        return *this;
    }
+   template <typename T>
+   TestCase check_function(int (f)(T),T a, T b)
+   {
+       return *this;
+   } 
+    template <typename T1,typename T2>
+   TestCase check_function(int (f)(T2),T2 a, T1 b)
+   {
+       return *this;
+   } 
+     template <typename T1,typename T2,typename T3>
+   TestCase check_function(int (f)(const T2),T3 a, T1 b)
+   {
+       return *this;
+   } 
+      template <typename T1,typename T2,typename T3>
+   TestCase check_function( T2 f,T3 a, T1 b)
+   {
+       return *this;
+   } 
 
 
    void print()
