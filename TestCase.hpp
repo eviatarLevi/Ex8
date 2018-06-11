@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include <boost/type_index.hpp>
 
 using namespace std;
 
