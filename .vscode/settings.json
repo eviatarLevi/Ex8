@@ -3,6 +3,9 @@
         "cmath": "cpp",
         "xstring": "cpp",
         "xiosbase": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "xutility": "cpp",
+        "streambuf": "cpp",
+        "ostream": "cpp"
     }
 }
